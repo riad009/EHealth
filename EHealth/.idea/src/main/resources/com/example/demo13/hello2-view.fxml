@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="340.0" prefWidth="441.0" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo13.HelloController2">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <AnchorPane prefHeight="339.0" prefWidth="521.0">
+      <children>
+         <Button fx:id="button2" layoutX="422.0" layoutY="11.0" mnemonicParsing="false" onMouseClicked="#goprev" style="-fx-background-color: #ff0000;" text="Logout" textFill="WHITE">
+            <font>
+               <Font size="10.0" />
+            </font></Button>
+         <Button fx:id="button" layoutX="59.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#goNext" prefHeight="29.0" prefWidth="106.0" style="-fx-background-color: #00ff00;" text="Contact Doctor" textFill="WHITE">
+            <font>
+               <Font name="System Bold" size="10.0" />
+            </font></Button>
+         <ImageView fitHeight="29.0" fitWidth="31.0" layoutX="22.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../assets/icon/emerjency.jpg" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="29.0" fitWidth="31.0" layoutX="275.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../assets/head.jpg" />
+            </image>
+         </ImageView>
+         <Button fx:id="button1" layoutX="313.0" layoutY="12.0" mnemonicParsing="false" onMouseClicked="#goNext" prefHeight="15.0" prefWidth="62.0" style="-fx-background-color: #00ff00;" text="Profile" textFill="WHITE">
+            <font>
+               <Font name="System Bold" size="10.0" />
+            </font>
+         </Button>
+         <Button fx:id="button3" layoutX="51.0" layoutY="80.0" mnemonicParsing="false" onMouseClicked="#goNext" prefHeight="22.0" prefWidth="87.0" style="-fx-background-color: #3cb371;" text="Helpine" textFill="WHITE">
+            <font>
+               <Font name="System Bold" size="10.0" />
+            </font>
+         </Button>
+         <Button fx:id="button31" layoutX="51.0" layoutY="127.0" mnemonicParsing="false" onMouseClicked="#goNext" prefHeight="22.0" prefWidth="87.0" style="-fx-background-color: #3cb371;" text="Emerjancy" textFill="WHITE">
+            <font>
+               <Font name="System Bold" size="10.0" />
+            </font>
+         </Button>
+         <Button fx:id="button311" layoutX="51.0" layoutY="181.0" mnemonicParsing="false" onMouseClicked="#goNext" prefHeight="22.0" prefWidth="87.0" style="-fx-background-color: #3cb371;" text="Appoinment" textFill="WHITE">
+            <font>
+               <Font name="System Bold" size="10.0" />
+            </font>
+         </Button>
+         <ImageView fitHeight="29.0" fitWidth="31.0" layoutX="14.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../assets/icon/green-pata.jpg" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="29.0" fitWidth="31.0" layoutX="14.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../assets/icon/6434d72ce9e16251c4f41f4e5a146567.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="29.0" fitWidth="31.0" layoutX="14.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../assets/icon/R.png" />
+            </image>
+         </ImageView>
+         <Separator layoutX="12.0" layoutY="44.0" prefHeight="6.0" prefWidth="456.0" />
+         <Separator layoutX="159.0" layoutY="48.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="0.0" />
+      </children>
+   </AnchorPane>
+   <Separator orientation="VERTICAL" prefHeight="200.0" />
+
+</VBox>

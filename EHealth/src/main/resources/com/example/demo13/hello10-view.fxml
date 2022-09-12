@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo13.HelloController10">
+   <children>
+      <AnchorPane prefHeight="42.0" prefWidth="600.0" style="-fx-background-color: #5b2ca0;" />
+      <AnchorPane layoutY="39.0" prefHeight="361.0" prefWidth="104.0" style="-fx-background-color: #59419f;">
+         <children>
+            <Button layoutX="15.0" layoutY="89.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="74.0" style="-fx-background-color: #00ced1;" text="Patient Chat" textFill="#f4f4f4">
+               <font>
+                  <Font size="9.0" />
+               </font></Button>
+            <Button layoutX="18.0" layoutY="45.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="74.0" style="-fx-background-color: #778ba5;" text="Profile" textFill="#f4f4f4">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+            <Button layoutX="15.0" layoutY="133.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="74.0" style="-fx-background-color: #778ba5;" text="Dashboard" textFill="#f4f4f4">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+      <Line endX="350.0" endY="-13.0" layoutX="224.0" layoutY="124.0" startX="-100.0" startY="-13.0" />
+      <Label layoutX="124.0" layoutY="78.0" prefHeight="27.0" prefWidth="114.0" style="-fx-background-color: green;" text="Patient Live Chat " textFill="#ebe8e8">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Line endX="118.0" endY="231.0" layoutX="230.0" layoutY="134.0" opacity="0.77" startX="118.0" startY="7.0" stroke="#454543" />
+      <Button layoutX="268.0" layoutY="74.0" mnemonicParsing="false" opacity="0.58" prefHeight="20.0" prefWidth="104.0" style="-fx-background-color: blue;" text="Patient Activity" textFill="#f4f4f4">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <TextArea layoutX="372.0" layoutY="176.0" prefHeight="75.0" prefWidth="200.0" />
+      <TextArea layoutX="128.0" layoutY="176.0" prefHeight="75.0" prefWidth="200.0" />
+      <Button layoutX="135.0" layoutY="141.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="74.0" style="-fx-background-color: #778ba5;" text="Send Message" textFill="#f4f4f4">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+      <Button layoutX="380.0" layoutY="141.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="95.0" style="-fx-background-color: #778ba5;" text="Patient Message" textFill="#f4f4f4">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

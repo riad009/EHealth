@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="469.0" prefWidth="729.0" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo13.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <AnchorPane prefHeight="477.0" prefWidth="689.0">
+      <children>
+         <Button fx:id="button" layoutX="534.0" layoutY="310.0" mnemonicParsing="false" onMouseClicked="#goNext" prefHeight="25.0" prefWidth="61.0" style="-fx-background-color: #0000ff;" text="login" textFill="#e9e9e9">
+            <font>
+               <Font name="System Bold" size="12.0" />
+            </font>
+         </Button>
+         <ImageView fitHeight="262.0" fitWidth="321.0" layoutX="14.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../assets/icon/doctor.jpg" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="116.0" fitWidth="152.0" layoutX="399.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../assets/icon/global.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="98.0" fitWidth="116.0" layoutX="579.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../assets/icon/medical-symbol.png" />
+            </image>
+         </ImageView>
+         <PasswordField layoutX="490.0" layoutY="262.0" />
+         <TextField layoutX="490.0" layoutY="214.0" />
+         <Label layoutX="407.0" layoutY="217.0" text="Username" textFill="#2a12e0">
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font>
+         </Label>
+         <Label layoutX="407.0" layoutY="265.0" text="username" textFill="#2a12e0">
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font>
+         </Label>
+         <ImageView fitHeight="25.0" fitWidth="33.0" layoutX="374.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../assets/head.jpg" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="25.0" fitWidth="33.0" layoutX="375.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../../assets/login.png" />
+            </image>
+         </ImageView>
+      </children></AnchorPane>
+
+    <Label fx:id="welcomeText" />
+
+</VBox>

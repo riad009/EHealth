@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="523.0" prefWidth="753.0" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo13.HelloController2">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <AnchorPane prefHeight="579.0" prefWidth="687.0">
+      <children>
+         <AnchorPane layoutX="-10.0" layoutY="140.0" prefHeight="552.0" prefWidth="210.0" style="-fx-background-color: #59419f;">
+            <children>
+               <Button fx:id="button2" layoutX="126.0" layoutY="498.0" mnemonicParsing="false" onMouseClicked="#goprev" style="-fx-background-color: #ff0000;" text="Logout" textFill="WHITE">
+                  <font>
+                     <Font size="10.0" />
+                  </font>
+               </Button>
+               <Button fx:id="button" layoutX="64.0" layoutY="84.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: #00ced1;" text="Home" textFill="#fdfdfd" />
+               <Button fx:id="button1" layoutX="64.0" layoutY="36.0" mnemonicParsing="false" onMouseClicked="#goNext" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: #778ba5;" text="Profile" textFill="#fdfdfd" />
+               <Button fx:id="button3" layoutX="64.0" layoutY="129.0" mnemonicParsing="false" onMouseClicked="#goNext" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: #778ba5;" text=" Doctor" textFill="#fdfdfd" />
+               <Button fx:id="button31" layoutX="64.0" layoutY="180.0" mnemonicParsing="false" onMouseClicked="#goNext" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: #778ba5;" text="Appointment" textFill="#fdfdfd" />
+               <Separator layoutX="34.0" layoutY="379.0" prefHeight="52.0" prefWidth="157.0" />
+               <Button fx:id="button311" layoutX="118.0" layoutY="431.0" mnemonicParsing="false" onMouseClicked="#admin" prefHeight="25.0" prefWidth="61.0" style="-fx-background-color: #778ba5;" text="Admin" textFill="#fdfdfd" />
+            </children>
+         </AnchorPane>
+         <AnchorPane layoutX="-9.0" layoutY="66.0" prefHeight="74.0" prefWidth="921.0" style="-fx-background-color: #5b2ca0;">
+            <children>
+               <Label layoutX="70.0" layoutY="19.0" prefHeight="17.0" prefWidth="157.0" text="E-Health" textFill="WHITE">
+                  <font>
+                     <Font name="System Bold" size="24.0" />
+                  </font>
+               </Label>
+            </children></AnchorPane>
+         <AnchorPane layoutX="200.0" layoutY="142.0" prefHeight="527.0" prefWidth="707.0">
+            <children>
+               <Separator layoutY="62.0" prefHeight="16.0" prefWidth="721.0" />
+               <Label layoutX="22.0" layoutY="14.0" prefHeight="43.0" prefWidth="118.0" text="Home" textFill="#221b1b">
+                  <font>
+                     <Font name="System Bold" size="29.0" />
+                  </font>
+               </Label>
+               <ImageView fitHeight="25.0" fitWidth="24.0" layoutX="159.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../assets/icon/d826105132417d6a9b5a888f5bea2044-medical-pill-colored-stroke-icon-by-vexels.png" />
+                  </image>
+               </ImageView>
+               <Label layoutX="183.0" layoutY="15.0" prefHeight="43.0" prefWidth="84.0" text="Get Medicine" textFill="#1d12be">
+                  <font>
+                     <Font size="13.0" />
+                  </font>
+               </Label>
+               <Label layoutX="343.0" layoutY="15.0" prefHeight="43.0" prefWidth="84.0" text="Blood Report" textFill="#1d12be">
+                  <font>
+                     <Font size="13.0" />
+                  </font>
+               </Label>
+               <ImageView fitHeight="25.0" fitWidth="24.0" layoutX="312.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../assets/icon/blood-donation-pngrepo-com.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="199.0" fitWidth="716.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../assets/icon/R%20(3).png" />
+                  </image>
+               </ImageView>
+               <Label layoutX="515.0" layoutY="15.0" prefHeight="43.0" prefWidth="84.0" text="Helpline" textFill="#1d12be">
+                  <font>
+                     <Font size="13.0" />
+                  </font>
+               </Label>
+               <ImageView fitHeight="25.0" fitWidth="24.0" layoutX="477.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../assets/icon/helpline.jpg" />
+                  </image>
+               </ImageView>
+               <Label layoutX="637.0" layoutY="15.0" prefHeight="43.0" prefWidth="84.0" text="Support" textFill="#1d12be">
+                  <font>
+                     <Font size="13.0" />
+                  </font>
+               </Label>
+               <ImageView fitHeight="25.0" fitWidth="24.0" layoutX="599.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../assets/png/—Pngtree—medical%20icon%20with%20stethoscope%20vector_8090834.png" />
+                  </image>
+               </ImageView>
+               <Label layoutX="111.0" layoutY="137.0" prefHeight="43.0" prefWidth="84.0" text="Health Status" textFill="#1d12be">
+                  <font>
+                     <Font size="13.0" />
+                  </font>
+               </Label>
+               <ImageView fitHeight="43.0" fitWidth="45.0" layoutX="46.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../assets/png/icons8-heart-health-64.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="195.0" fitWidth="230.0" layoutX="35.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../assets/png/40023-6-graph-image-free-png-hq.png" />
+                  </image>
+               </ImageView>
+               <Label layoutX="396.0" layoutY="137.0" prefHeight="43.0" prefWidth="125.0" text="Next Schedule " textFill="#1d12be">
+                  <font>
+                     <Font size="13.0" />
+                  </font>
+               </Label>
+               <Line endX="-100.0" endY="138.0" layoutX="411.0" layoutY="215.0" opacity="0.2" startX="-100.0" startY="-56.0" />
+               <ImageView fitHeight="140.0" fitWidth="191.0" layoutX="334.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../assets/png/Schedule_clock.svg_.png" />
+                  </image>
+               </ImageView>
+               <ImageView fitHeight="43.0" fitWidth="55.0" layoutX="349.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../../assets/icon/doctor-hd-png-png-648.png" />
+                  </image>
+               </ImageView>
+               <DatePicker layoutX="385.0" layoutY="207.0" prefWidth="187.0" />
+            </children></AnchorPane>
+      </children>
+   </AnchorPane>
+   <Separator orientation="VERTICAL" prefHeight="200.0" />
+   <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+   <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+
+</VBox>
